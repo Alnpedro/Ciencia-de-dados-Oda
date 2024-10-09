@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
+:root{
+    --bg-colar: #021526;
+    --primary-colar: #03346E;
+    --secondary-colar: #6EACDA;
+    --font: "Edu AU VIC WA NT Dots", cursive;
+}
+
+body{
+    background-color:var(--bg-colar);
+    color:  var(--secondary-colar);
+font-family: var(--font);
+height: 100vh;
+margin: 0;
+}
+
+header {
+    background-color: var(--primary-colar);
+    text-align: center;
+
+}
+h1 {
+    font-size: 2rem;
+    color: var(--bg-colar);
+    font-weight: 700;
+}
+
